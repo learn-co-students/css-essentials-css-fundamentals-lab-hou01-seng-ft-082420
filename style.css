@@ -3,3 +3,31 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1, figure, nav {
+  text-align: center;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
+
+figcaption {
+  font-size: 9pt;
+}
+
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: 8px auto
+  /* auto - the browser calculates the margin; 8px separates the top from bottom p element */
+}
+
+#details div {
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
